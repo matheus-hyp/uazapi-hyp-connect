@@ -1,0 +1,4 @@
+# Bloqueia qualquer .ini
+<FilesMatch "\.ini$">
+  Require all denied
+</FilesMatch>
